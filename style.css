@@ -1,0 +1,67 @@
+* {
+	box-sizing: border-box;
+}
+
+.main	{
+	text-align: center;
+	height: 100vh;
+}
+
+@media only screen and (max-width: 600px){ 
+
+	section {
+		border: 1px solid black;
+		height: 33.33%;
+	}
+
+	#headline {
+		background-color: white;
+	}
+
+	#projects {
+		background-color: lightgrey;
+	}
+
+	#bio {
+		background-color: grey;
+	}
+
+}
+
+@media only screen and (min-width: 601px){
+
+	header{
+		position: fixed;
+		top: 5px;
+		left: 5px;
+	}
+
+	#headline {
+		border: 3px solid black;
+		display: absolute;
+		flex-direction: column;
+		justify-content: center;
+		background-color: white;
+		margin-top: 50px;
+		height: 400px;
+	}
+
+	#projects {
+		
+		background-color: lightgrey;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		width: 50%;
+	}
+
+	#bio {
+		
+		background-color: grey;
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: center;
+		width: 50%;
+	}
+
+}
