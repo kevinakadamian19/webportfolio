@@ -1,6 +1,5 @@
 * {
 	box-sizing: border-box;
-	font-family: 'Raleway', sans-serif;
 }
 
 .main	{
@@ -10,31 +9,58 @@
 
 @media only screen and (max-width: 600px){ 
 
+	header img {
+		border-radius: 60px;
+		
+		width: 60px;
+		position: fixed;
+		top: 5px;
+		left: 10px;
+	}
+
+	.main {
+		display: flex;
+		flex-direction: column;
+		justify-content: center, space-between;
+	}
+
+	.main button {
+		border: none;
+	}
+	
 	section {
-		border: 1px solid black;
+		
 		height: 33.33%;
+		padding: 0px;
+		margin: 0px;
+		border-radius: 15px;
 	}
 
 	#headline {
 		background-color: white;
+		
 	}
 
-	#projects {
-		background-color: lightgrey;
-	}
+	section img {
+		width: 100%;
 
-	#bio {
-		background-color: grey;
 	}
 
 }
 
 @media only screen and (min-width: 601px){
 
-	header{
+header img {
+		border-radius: 60px;
+		
+		width: 60px;
 		position: fixed;
 		top: 5px;
-		left: 5px;
+		left: 10px;
+	}
+
+	section img {
+		width: 100%
 	}
 
 	#headline {
