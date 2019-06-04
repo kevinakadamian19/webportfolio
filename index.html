@@ -4,27 +4,34 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <title>Portfolio Site Wire Frame</title>
+    <title>Portfolio Site</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+    <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   </head>
 
   <body>
-  	<div role="main" class="main">
-  		<header> <img src="headline.jpg" alt="Headshot photo of myself."></header>
+  	<header><a href="" id="home-button">Kevin Damian Ta</a></header>
 
+  	<div role="main" class="main">
   		<section id="headline">
-  			<h1>Hi I'm Damian!</h1>
+  			<h1>Welcome!</h1>
+  			<p>An aspiring Full Stack Engineer by day, and League of Legends enthusiast by night.</p>
+  			<p>Take a look some of my work here!</p>
   		</section>
 
   		<section id="projects">
-  			<button><img src="projects.jpg" alt="Photo of a keyboard, and pen on a desk."></button>
+  			<h1>Projects</h1>
+  			<input type="image" src="projects.jpg" name="project-button" id="project-button">
   		</section>
 
   		<section id="bio">
-  			<button><img src="bio.jpg" alt="image of Kassadin from League of Legends in Cosmic Reaver skin"></button>
+  			<h1>About Me</h1>
+  			<input type="image" src="bio.jpg" name="bio-button" id="bio-button">
   		</section>
   	</div>
 
+  	<script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
   </body>
 </html>

@@ -2,55 +2,52 @@
 	box-sizing: border-box;
 }
 
-.main	{
-	text-align: center;
-	height: 100vh;
-}
 
-@media only screen and (max-width: 600px){ 
 
-	header img {
-		border-radius: 60px;
-		
-		width: 60px;
-		position: fixed;
-		top: 5px;
-		left: 10px;
+@media only screen and (max-width: 600px){
+	body {
+		display: flex;
+		flex-direction: column;
+		justify-content: center, space-around;
+	} 
+	header {
+		text-align: center;
+	}
+
+	header a{
+		text-decoration: none;
+		font-family: 'Just Another Hand', cursive;
+		font-size: 40px;
+		color: black;
+	}
+	header a:hover {
+		color: grey;
 	}
 
 	.main {
-		display: flex;
-		flex-direction: column;
-		justify-content: center, space-between;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: 'Poppins', sans-serif;
 	}
 
-	.main button {
-		border: none;
-	}
-	
 	section {
 		
-		height: 33.33%;
-		padding: 0px;
-		margin: 0px;
-		border-radius: 15px;
+		width: 300px;
+		height: 200px;
+		margin-right: auto;
+		margin-left: auto;
 	}
-
-	#headline {
-		background-color: white;
-		
-	}
-
-	section img {
-		width: 100%;
-
+	
+	section input:hover {
+		opacity: .8;
 	}
 
 }
 
 @media only screen and (min-width: 601px){
 
-header img {
+//* header img {
 		border-radius: 60px;
 		
 		width: 60px;
@@ -90,5 +87,5 @@ header img {
 		justify-content: center;
 		width: 50%;
 	}
-
+ *//
 }
