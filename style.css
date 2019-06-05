@@ -43,6 +43,14 @@
 		opacity: .8;
 	}
 
+	.social-media-links img{
+		width: 30px;
+	}
+
+	.social-media-links li{
+		list-style-type: none;
+		display: inline-block;
+	}
 }
 
 @media only screen and (min-width: 601px){
@@ -55,11 +63,9 @@
 		top: 5px;
 		left: 10px;
 	}
-
 	section img {
 		width: 100%
 	}
-
 	#headline {
 		border: 3px solid black;
 		display: absolute;
@@ -69,7 +75,6 @@
 		margin-top: 50px;
 		height: 400px;
 	}
-
 	#projects {
 		
 		background-color: lightgrey;
@@ -78,7 +83,6 @@
 		justify-content: center;
 		width: 50%;
 	}
-
 	#bio {
 		
 		background-color: grey;
