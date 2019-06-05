@@ -59,8 +59,8 @@ function clickProject() {
 function createBio() {
 	let bio = `
 <div role="main" class="main">
-  		<section id="headshot-photo">
-  		<img src="fullheadline.jpg" alt="Headshot photo of me; Kevin Damian Ta">
+  		<section id="bio-pic">
+  		<img src="power.jpg" alt="Headshot photo of me; Kevin Damian Ta">
   		</section>
   		<section id="bio-description">
   			<p> 
