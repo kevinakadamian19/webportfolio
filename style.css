@@ -2,18 +2,31 @@
 	box-sizing: border-box;
 }
 
+body {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	font-size: 16px;
+	background-color: lightgrey;
+}
+
 @media only screen and (max-width: 600px){
  
+	body {
+		background-color: lightgrey;
+	}
+
 	header {
 		text-align: center;
 	}
 
-	header a{
+	header a {
 		text-decoration: none;
 		font-family: 'Just Another Hand', cursive;
 		font-size: 40px;
 		color: black;
 	}
+
 	header a:hover {
 		color: grey;
 	}
@@ -23,7 +36,9 @@
 		margin-right: auto;
 		margin-left: auto;
 		font-family: 'Poppins', sans-serif;
-		
+		border: 2px solid white;
+		border-radius: 25px;
+		padding: 25px;
 	}
 
 	section {
@@ -31,10 +46,35 @@
 		height: 200px;
 		margin-right: auto;
 		margin-left: auto;
+		margin: 10px;
 	}
 	
 	section input:hover {
 		opacity: .8;
+	}
+
+	#project-one {
+
+	}
+
+	#tbd {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#bio-pic {
+		margin-top: 10px;
+	}
+
+	#bio-pic img {
+		border-radius: 15px;
+	}
+
+	.social-media-links {
+		margin-top: 100px;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
 	}
 
 	.social-media-links img{
@@ -43,47 +83,74 @@
 
 	.social-media-links li{
 		list-style-type: none;
-		display: inline-block;
 	}
 }
 
 @media only screen and (min-width: 601px){
+ 
+	header {
+		display: flex;
+		justify-content: left;
+	}
 
-//* header img {
-		border-radius: 60px;
-		
-		width: 60px;
-		position: fixed;
-		top: 5px;
-		left: 10px;
+	header a {
+		text-decoration: none;
+		font-family: 'Just Another Hand', cursive;
+		font-size: 40px;
+		color: black;
 	}
-	section img {
-		width: 100%
+
+	header a:hover {
+		color: grey;
 	}
-	#headline {
-		border: 3px solid black;
-		display: absolute;
-		flex-direction: column;
-		justify-content: center;
-		background-color: white;
-		margin-top: 50px;
-		height: 400px;
+
+	.main {
+		width: 1000px;
+		text-align: center;
+		margin-right: auto;
+		margin-left: auto;
+		font-family: 'Poppins', sans-serif;
+		border: 3px solid white;
+		border-radius: 25px;
+		padding: 25px;
 	}
-	#projects {
-		
-		background-color: lightgrey;
+
+	section {
+		margin-right: auto;
+		margin-left: auto;
+		margin: 10px;
+		display: inline-block;
+	}
+	
+	section input:hover {
+		opacity: .8;
+	}
+
+	#tbd {
+		display: flex;
+		flex-direction: column-reverse;
+	}
+
+	#bio-pic {
+		margin-top: 10px;
+	}
+
+	#bio-pic img {
+		border-radius: 15px;
+	}
+
+	.social-media-links {
+		margin-top: 100px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
-		width: 50%;
 	}
-	#bio {
-		
-		background-color: grey;
-		display: flex;
-		flex-direction: row-reverse;
-		justify-content: center;
-		width: 50%;
+
+	.social-media-links img{
+		width: 30px;
 	}
- *//
+
+	.social-media-links li{
+		list-style-type: none;
+	}
 }
