@@ -43,7 +43,6 @@ body {
 
 	section {
 		width: 300px;
-		height: 200px;
 		margin-right: auto;
 		margin-left: auto;
 		margin: 10px;
@@ -53,8 +52,8 @@ body {
 		opacity: .8;
 	}
 
-	#project-one {
-
+	#project-one-repo img {
+		width: 30px;
 	}
 
 	#tbd {
@@ -71,10 +70,21 @@ body {
 	}
 
 	.social-media-links {
-		margin-top: 100px;
+		margin-top: 50px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+	}
+
+	#social-media a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Just Another Hand', cursive;
+		font-size: 40px;
+	}
+
+	#social-media a:hover {
+		color: grey;
 	}
 
 	.social-media-links img{
@@ -89,8 +99,7 @@ body {
 @media only screen and (min-width: 601px){
  
 	header {
-		display: flex;
-		justify-content: left;
+		text-align: center;
 	}
 
 	header a {
@@ -105,7 +114,6 @@ body {
 	}
 
 	.main {
-		width: 1000px;
 		text-align: center;
 		margin-right: auto;
 		margin-left: auto;
@@ -113,6 +121,9 @@ body {
 		border: 3px solid white;
 		border-radius: 25px;
 		padding: 25px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 
 	section {
@@ -126,6 +137,10 @@ body {
 		opacity: .8;
 	}
 
+	#project-one-repo img {
+		width: 30px;
+	}
+
 	#tbd {
 		display: flex;
 		flex-direction: column-reverse;
@@ -135,15 +150,30 @@ body {
 		margin-top: 10px;
 	}
 
-	#bio-pic img {
+	#bio-pic a img {
 		border-radius: 15px;
 	}
 
+	#bio-description {
+		text-align: left;
+	}
+
 	.social-media-links {
-		margin-top: 100px;
+		margin-top: 50px;
 		display: flex;
 		flex-direction: row;
 		justify-content: center;
+	}
+
+	#social-media a {
+		text-decoration: none;
+		color: black;
+		font-family: 'Just Another Hand', cursive;
+		font-size: 40px;
+	}
+
+	#social-media a:hover {
+		color: grey;
 	}
 
 	.social-media-links img{
