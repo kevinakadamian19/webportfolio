@@ -41,12 +41,6 @@ function createHome() {
           </p>
           <a href="https://github.com/kevinakadamian19/pokemon-master-quiz-app" id="project-one-repo" target="_blank"><img src="github.jpg" alt="Link to github repository for the Pokemon Master Quiz project."></a>
         </section>
-        <section id="tbd">
-          <h1>New Projects Coming Soon!</h1>
-        </section>
-      </div>
-      
-      <div role="main" class="main">
         <section id="project-one">
           <h1>MTG Card Generator</h1>
           <a href="https://kevinakadamian19.github.io/MTG-Card-Generator/"><img src="mtgmain.jpg"></a>
@@ -56,7 +50,6 @@ function createHome() {
           </p>
           <a href="https://github.com/kevinakadamian19/MTG-Card-Generator" id="project-one-repo" target="_blank"><img src="github.jpg" alt="Link to github repository for the MTG Card generator web application."></a>
         </section>
-        
         <section id="tbd">
           <h1>New Projects Coming Soon!</h1>
         </section>
